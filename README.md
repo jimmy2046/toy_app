@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the toy_app from Michael Hartl's Ch. 2 A Toy's App:
+https://www.railstutorial.org/book/toy_app#cha-a_toy_app
 
-Things you may want to cover:
+* Ruby version: ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+* Rails version: Rails 5.0.1
+* System dependencies: Tested on Ubuntu Linux 16.04 LTS
+* Database creation: sqlite3
 
-* Ruby version
+You can clone (download) to your local harddrive, from Linux shell terminal:
+$ git clone https://github.com/jimmy2046/toy_app.git
 
-* System dependencies
+Start the Rails server:
+$ cd toy_app
+$ rails s
 
-* Configuration
+Access the web application using Firefox:
+http://localhost:3000/
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
